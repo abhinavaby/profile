@@ -1,7 +1,39 @@
 body{
-    width:412px;
+    width:390px;
     height:844px;
     border:8px solid black;
-    background-color: aqua;
-    margin:auto;
+    background: linear-gradient(45deg,#4C83FF,#2AFADF,#4C83FF,#2AFADF,#4C83FF,#2AFADF);
+    background-size: 300% 300%; 
+    animation: gradient 8s ease infinite;
+    
+
+    margin: auto;
+}
+@keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#photo{
+    margin-top: 50px;
+    width:388px;
+    height:200px;
+    
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50% ;
+    border: 1px solid black;
+    
+}
+#image img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50% ;
 }
