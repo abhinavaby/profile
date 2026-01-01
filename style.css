@@ -145,11 +145,16 @@ button{
     height: 50px;
     border: none;
     background-color: rgb(27, 27, 27);
-    border: 1px solid rgb(203, 201, 201);
+    border: 1px solid rgb(195, 192, 192);
     color: rgb(203, 203, 203);
     font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
+}
+#button a{
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
