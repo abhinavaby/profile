@@ -33,4 +33,7 @@ This repository contains the source code for my personal profile card website. I
 
 ## 📸 Preview
 
-The design features a centered card with a profile section, a grid of social icons, and a prominent call-to-action button, all set against a shifting gradient background.
+The design features a centered card with a profile section, a grid of social icons, and a prominent call-to-action button, all set against a shifting gradient background.<br>
+<br>!
+<h1>Preview(click to view website)</h1>
+<a href="https://abhinavaby.github.io/profile/">![WhatsApp Image 2026-01-01 at 8 53 53 PM](https://github.com/user-attachments/assets/2d85f7e1-8347-4235-a0cf-1de364f271bf)</a>
