@@ -90,13 +90,16 @@ body{
     0%{opacity:0;}
     100%{opacity:1;}
 }
- 
+@keyframes individual-fade{
+    0%{opacity:0; transform: translateY(70px);}
+    100%{opacity:1; transform: translateY(0px);}
+}
 #inn{
     
     height: 190px;
     width: 250px;
     position: relative;
-    top: -355px;
+    top: -380px;
     left:0px;
     display: flex;
     justify-content: center;
@@ -107,16 +110,16 @@ body{
 .box{
     width: 45px;
     height:45px;
-    border: 1px solid rgb(0, 0, 0);
-    background: rgba(255, 255, 255, 0.095);
+    
+    background-color: rgba(147, 64, 255, 0.422);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-     background: transparent;
+     
     
-    backdrop-filter: blur(2px);
-    animation: fade 2s ease-in 0s 1  ;
+    
+    animation: individual-fade 2s ease-in 0s 1  ;
 }
 .container{
     display: flex;
@@ -141,7 +144,7 @@ body{
 }
 #box-1{
     width:69px;
-    animation: fade 2s ease-in 0s 1  ;
+    
 }
 #box-3{
     width:69px;
@@ -149,7 +152,7 @@ body{
 #box-2{
     
     width:69px;
-    animation: fade 2s ease-in 0s 1  ;
+    
     
 }
    
@@ -184,19 +187,17 @@ button{
     width: 221px;
     height: 50px;
     border: none;
-    background-color: rgb(27, 27, 27);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(147, 64, 255, 0.422);
     color: rgb(203, 203, 203);
     font-size: 18px;
-    border-radius: 8px;
+    border-radius: 12px;
     cursor: pointer;
     position:relative;
-    top: -397px;
+    top: -420px;
     left:0px;
-     background: transparent;
+     
+    animation: individual-fade 2s ease-in 0s 1  ;
     
-    backdrop-filter: blur(2px);
-    animation: fade 2s ease-in 0s 1  ;
 }
 #button a{
     text-decoration: none;
@@ -207,6 +208,7 @@ button{
 @keyframes translate {
     0%{transform: translateY(70px); opacity:0;}
     100%{transform: translateY(0px); opacity:1;
+       
     }
 }
 #photo img{
